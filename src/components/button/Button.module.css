@@ -1,0 +1,102 @@
+.center {
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+}
+
+.button {
+  position: relative;
+  background: #957063;
+  color: #FFE6DD;
+  border: 1px solid rgba(209, 179, 169, 0.5);
+  font-family: "AssistantR", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 12px 28px;
+  cursor: pointer;
+  direction: rtl;
+  overflow: hidden;
+  outline: none;
+  border-radius: 30px;
+  min-width: 180px;
+  height: 55px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  direction: rtl;
+}
+
+.button:hover {
+  background: #8a6559;
+  box-shadow: 0 8px 20px rgba(149, 112, 99, 0.3);
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+/* Shine effect - smaller and more subtle */
+.shine {
+  position: absolute;
+  top: -25%;
+  left: -25%;
+  width: 150%;
+  height: 150%;
+  background: linear-gradient(
+    45deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 70%,
+    transparent 100%
+  );
+  transform: rotate(25deg);
+  animation: shine 10s infinite linear;
+  pointer-events: none;
+}
+
+@keyframes shine {
+  0% {
+    transform: translate(-75%, -75%) rotate(25deg);
+  }
+  100% {
+    transform: translate(75%, 75%) rotate(25deg);
+  }
+}
+
+/* Optional - you can add these button content styles from the navbar CSS */
+.buttonContent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.buttonText, .buttonTextHover {
+  display: block;
+  width: 100%;
+  text-align: center;
+  transition: all 0.4s ease;
+  white-space: nowrap;
+}
+
+.buttonTextHover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+.button:hover .buttonText {
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+.button:hover .buttonTextHover {
+  transform: translateY(0);
+  opacity: 1;
+}

@@ -1,0 +1,364 @@
+/* Services.module.css */
+.servicesContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  direction: rtl;
+}
+
+.servicesTitle,
+.servicesSubtitle {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.servicesTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-family: 'Assistant', sans-serif;
+  color: #957063;
+}
+
+.servicesSubtitle {
+  font-size: 1.1rem;
+  color: #957063;
+  margin-bottom: 2rem;
+  font-family: 'AssistantR', sans-serif;
+}
+
+.servicesGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.serviceCard {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: visible;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0e6e3;
+}
+
+.serviceCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(149, 112, 99, 0.15);
+}
+
+.serviceImageContainer {
+  width: 180px;
+  flex-shrink: 0;
+}
+
+.serviceImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.serviceContent {
+  flex-grow: 1;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 100%;
+  position: relative;
+  padding-bottom: 4rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.serviceTitle {
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: #957063;
+}
+
+.serviceDetails {
+  flex-grow: 1;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.serviceDetailItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.serviceDetailIcon {
+  margin-left: 0.75rem;
+  color: #D1B3A9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.serviceDetailText {
+  flex-grow: 1;
+}
+
+.serviceDetailLabel {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #957063;
+  margin: 0 0 0.25rem 0;
+}
+
+.serviceDetailValue {
+  font-family: 'AssistantR', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #666;
+  margin: 0;
+  width: 90%;
+  margin-right: 0;
+  margin-left: auto;
+  text-align: right;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.serviceButtonContainer {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 2rem;
+}
+
+.additionalInfo {
+  background-color: #f9f5f3;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  text-align: right;
+  border-right: 3px solid #D1B3A9;
+}
+
+.additionalInfo p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+  font-family: 'AssistantR', sans-serif;
+}
+
+/* Responsive styles */
+
+/* מתחת ל-350px */
+@media (max-width: 349px) {
+  .servicesContainer {
+    padding: 1rem 0.5rem;
+  }
+  
+  .servicesTitle {
+    font-size: 1.6rem;
+  }
+  
+  .servicesSubtitle {
+    font-size: 0.9rem;
+  }
+  
+  .serviceCard {
+    flex-direction: column;
+  }
+  
+  .serviceImageContainer {
+    width: 100%;
+    height: 150px;
+  }
+  
+  .serviceContent {
+    padding: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .serviceTitle {
+    font-size: 1.2rem;
+  }
+  
+  .serviceDetailLabel {
+    font-size: 0.8rem;
+  }
+  
+  .serviceDetailValue {
+    font-size: 0.8rem;
+  }
+  
+  .serviceButtonContainer {
+    position: static;
+    text-align: left;
+    padding-left: 1rem;
+    margin-top: 0.75rem;
+  }
+  
+  .additionalInfo {
+    padding: 1rem;
+  }
+}
+
+/* 350px-450px */
+@media (min-width: 350px) and (max-width: 450px) {
+  .servicesContainer {
+    padding: 1.2rem 0.6rem;
+  }
+  
+  .servicesTitle {
+    font-size: 1.7rem;
+  }
+  
+  .servicesSubtitle {
+    font-size: 0.9rem;
+  }
+  
+  .serviceCard {
+    flex-direction: column;
+  }
+  
+  .serviceImageContainer {
+    width: 100%;
+    height: 160px;
+  }
+  
+  .serviceContent {
+    padding: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+  
+  .serviceTitle {
+    font-size: 1.2rem;
+  }
+  
+  .serviceButtonContainer {
+    position: static;
+    text-align: left;
+    padding-left: 1rem;
+    margin-top: 0.75rem;
+  }
+}
+
+/* 450px-550px */
+@media (min-width: 451px) and (max-width: 550px) {
+  .servicesContainer {
+    padding: 1.5rem 0.8rem;
+  }
+  
+  .servicesTitle {
+    font-size: 1.8rem;
+  }
+  
+  .serviceCard {
+    flex-direction: column;
+  }
+  
+  .serviceImageContainer {
+    width: 100%;
+    height: 180px;
+  }
+  
+  .serviceContent {
+    padding: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+  
+  .serviceButtonContainer {
+    position: static;
+    text-align: left;
+    padding-left: 1rem;
+    margin-top: 0.75rem;
+  }
+}
+
+/* 550px-650px */
+@media (min-width: 551px) and (max-width: 650px) {
+  .servicesTitle {
+    font-size: 1.9rem;
+  }
+  
+  .serviceCard {
+    flex-direction: row;
+  }
+  
+  .serviceImageContainer {
+    width: 150px;
+  }
+  
+  .serviceDetailValue {
+    max-width: 320px;
+  }
+  
+  .serviceButtonContainer {
+    position: absolute;
+    left: 2rem;
+    bottom: 1.5rem;
+  }
+}
+
+/* 650px-750px */
+@media (min-width: 651px) and (max-width: 750px) {
+  .servicesTitle {
+    font-size: 2rem;
+  }
+  
+  .serviceImageContainer {
+    width: 160px;
+  }
+  
+  .serviceDetailValue {
+    max-width: 380px;
+  }
+}
+
+/* 750px-850px */
+@media (min-width: 751px) and (max-width: 850px) {
+  .serviceImageContainer {
+    width: 170px;
+  }
+  
+  .serviceDetailValue {
+    max-width: 440px;
+  }
+}
+
+/* 850px-950px */
+@media (min-width: 851px) and (max-width: 950px) {
+  .serviceDetailValue {
+    max-width: 500px;
+  }
+}
+
+/* 950px-1050px */
+@media (min-width: 951px) and (max-width: 1050px) {
+  .serviceDetailValue {
+    max-width: 540px;
+  }
+}
+
+/* 1050px-1150px */
+@media (min-width: 1051px) and (max-width: 1150px) {
+  .serviceDetailValue {
+    max-width: 560px;
+  }
+}
+
+/* 1150px-1250px */
+@media (min-width: 1151px) and (max-width: 1250px) {
+  .servicesContainer {
+    max-width: 1100px;
+  }
+  
+  .serviceCard {
+    max-width: 900px;
+  }
+  
+  .serviceDetailValue {
+    max-width: 580px;
+  }
+}

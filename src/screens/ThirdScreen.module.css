@@ -1,0 +1,436 @@
+.title{
+    font-family: "AssistantR";
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    width: 80%;
+    margin: 2% auto;
+    direction: rtl;
+    text-align: center;
+    max-width: 100%; /* Prevents text overflow */
+    word-wrap: break-word; /* Ensures long words don't cause overflow */
+}
+
+.bigWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.step{
+    width: 70%;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Allows content to wrap on small screens */
+}
+
+.icons{
+    height: 220px;
+    width: 220px;
+    flex: 1;
+    max-width: 100%; /* Prevents overflow */
+    object-fit: contain; /* Maintains aspect ratio */
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 3%;
+    justify-content: space-evenly;
+    max-width: 100%; /* Prevents text overflow */
+}
+
+.stepNum{
+    font-family: "AssistantR";
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    width: 100%;
+    word-wrap: break-word; /* Ensures long words don't cause overflow */
+}
+
+.stepHeader{
+    font-family: "AssistantR";
+    font-size: 38px;
+    text-align: center;
+    color: black;
+    margin: 2% auto;
+    word-wrap: break-word; /* Ensures long words don't cause overflow */
+}
+
+.section{
+    font-family: "AssistantR";
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    direction: rtl;
+    width: 80%;
+    margin: 0 auto;
+    word-wrap: break-word; /* Ensures long words don't cause overflow */
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 350px) {
+    .title{
+        font-family: "AssistantR";
+        font-size: 2.3rem;
+        text-align: center;
+        color: black;
+        width: 80%;
+        margin: 5% auto;
+        direction: rtl;
+        text-align: center;
+    }
+    
+    .bigWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .step{
+        width: 95%;
+        margin: 7% auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .icons{
+        height: 115px;
+        width: 115px;
+        flex: 1;
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        flex: 1.1;
+        margin: 3%;
+    }
+    
+    .stepHeader{
+        font-family: "AssistantR";
+        font-size: 28px;
+        text-align: center;
+        color: black;
+        width: 100%;
+    }
+    
+    .section{
+        font-family: "AssistantR";
+        font-size: 13px;
+        text-align: center;
+        color: black;
+        direction: rtl;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    .title{
+        font-family: "AssistantR";
+        font-size: 2.4rem;
+        text-align: center;
+        color: black;
+        width: 80%;
+        margin: 5% auto;
+        direction: rtl;
+        text-align: center;
+    }
+    
+    .bigWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .step{
+        width: 95%;
+        margin: 5% auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .icons{
+        height: 135px;
+        width: 135px;
+        flex: 1;
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        flex: 1.1;
+        margin: 3%;
+    }
+    
+    .stepHeader{
+        font-family: "AssistantR";
+        font-size: 28px;
+        text-align: center;
+        color: black;
+        width: 100%;
+    }
+    
+    .section{
+        font-family: "AssistantR";
+        font-size: 13px;
+        text-align: center;
+        color: black;
+        direction: rtl;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+    .title{
+        font-family: "AssistantR";
+        font-size: 3rem;
+        text-align: center;
+        color: black;
+        width: 85%;
+        margin: 5% auto;
+        direction: rtl;
+        text-align: center;
+    }
+    
+    .bigWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .step{
+        width: 95%;
+        margin: 5% auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .icons{
+        height: 135px;
+        width: 135px;
+        flex: 1;
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        flex: 1.1;
+        margin: 3%;
+    }
+    
+    .stepHeader{
+        font-family: "AssistantR";
+        font-size: 33px;
+        text-align: center;
+        color: black;
+        width: 100%;
+    }
+    
+    .section{
+        font-family: "AssistantR";
+        font-size: 15px;
+        text-align: center;
+        color: black;
+        direction: rtl;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 650px) {
+    .title{
+        font-family: "AssistantR";
+        font-size: 3.3rem;
+        text-align: center;
+        color: black;
+        width: 80%;
+        margin: 5% auto;
+        direction: rtl;
+        text-align: center;
+    }
+    
+    .bigWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .step{
+        width: 95%;
+        margin: 5% auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .icons{
+        height: 150px;
+        width: 150px;
+        flex: 1;
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        flex: 1.1;
+        margin: 3%;
+    }
+    
+    .stepHeader{
+        font-family: "AssistantR";
+        font-size: 38px;
+        text-align: center;
+        color: black;
+        width: 100%;
+    }
+    
+    .section{
+        font-family: "AssistantR";
+        font-size: 17px;
+        text-align: center;
+        color: black;
+        direction: rtl;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 850px) {
+    .title{
+        font-family: "AssistantR";
+        font-size: 3.3rem;
+        text-align: center;
+        color: black;
+        width: 85%;
+        margin: 5% auto;
+        direction: rtl;
+        text-align: center;
+    }
+    
+    .bigWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .step{
+        width: 85%;
+        margin: 5% auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .icons{
+        height: 150px;
+        width: 150px;
+        flex: 1;
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        flex: 1.1;
+        margin: 3%;
+    }
+    
+    .stepHeader{
+        font-family: "AssistantR";
+        font-size: 38px;
+        text-align: center;
+        color: black;
+        width: 100%;
+    }
+    
+    .section{
+        font-family: "AssistantR";
+        font-size: 17px;
+        text-align: center;
+        color: black;
+        direction: rtl;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1050px) {
+    .title{
+        font-family: "AssistantR";
+        font-size: 3.6rem;
+        text-align: center;
+        color: black;
+        width: 60%;
+        margin: 5% auto;
+        direction: rtl;
+        text-align: center;
+    }
+    
+    .bigWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .step{
+        width: 85%;
+        margin: 5% auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .icons{
+        height: 150px;
+        width: 150px;
+        flex: 1;
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        flex: 1.1;
+        margin: 3%;
+    }
+    
+    .stepHeader{
+        font-family: "AssistantR";
+        font-size: 38px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        width: 100%;
+    }
+    
+    .section{
+        font-family: "AssistantR";
+        font-size: 17px;
+        text-align: center;
+        color: black;
+        direction: rtl;
+        width: 100%;
+        margin: 1% auto;
+    }
+}

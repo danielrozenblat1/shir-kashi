@@ -1,0 +1,220 @@
+/* סגנון למיכל השאלות */
+.faqItem {
+  margin-bottom: 1rem;
+  border: 1px solid #d2c0b2;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 500px;
+  margin: 15px auto;
+  direction: rtl;
+  box-shadow: 0 2px 4px rgba(210, 192, 178, 0.2);
+  text-decoration: none;
+}
+
+/* סגנון לכפתור השאלה */
+.questionButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: #957063; /* צבע הכפתור - שונה ל-#957063 כפי שמבוקש */
+  border: none;
+  text-decoration: none;
+  color: #FFE6DD; /* צבע הטקסט - שונה ל-#FFE6DD כפי שמבוקש */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.questionButton:hover {
+  background-color: #8a6559; /* צבע כהה יותר בעת מעבר עכבר */
+}
+
+/* סגנון לטקסט השאלה */
+.questionText {
+  font-family: 'AssistantR', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #FFE6DD; /* צבע טקסט התואם לצבע הטקסט בכפתור */
+  direction: rtl;
+  flex-grow: 1;
+}
+
+/* אייקון לפתיחה/סגירה */
+.iconWrapper {
+  width: 24px;
+  flex-shrink: 0;
+  color: #FFE6DD; /* שינוי צבע האייקון כדי שיתאים לטקסט */
+  text-decoration: none;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+/* מיכל התשובה */
+.answerContainer {
+  overflow: hidden;
+  transition: height 0.3s ease;
+  background-color: #fdfbf9;
+  margin: auto;
+  direction: rtl;
+}
+
+/* טקסט התשובה */
+.answerText {
+  font-family: 'AssistantR', sans-serif;
+  font-size: 1.05rem;
+  padding: 1rem;
+  color: #5a4a3f;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+/* הדגשה לקישורים או טקסט חשוב בתוך התשובות */
+.answerText a, .answerText strong {
+  color: #b3967f;
+}
+
+/* סגנונות תגובתיים */
+@media (max-width: 350px) {
+  .faqItem {
+    width: 280px;
+  }
+  .questionText {
+    font-size: 1rem;
+  }
+  .answerText {
+    font-size: 0.9rem; 
+  }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+  .faqItem {
+    width: 320px;
+  }
+  .questionText {
+    font-size: 1.05rem;
+  }
+  .answerText {
+    font-size: 0.95rem; 
+  }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .faqItem {
+    width: 400px;
+  }
+  .questionText {
+    font-size: 1.1rem;
+  }
+  .answerText {
+    font-size: 1rem; 
+  }
+}
+
+/* סגנון כפתורים נוספים */
+.center {
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+}
+
+.button {
+  position: relative;
+  background: #957063;
+  color: #FFE6DD;
+  border: 1px solid rgba(209, 179, 169, 0.5);
+  font-family: "AssistantR", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 12px 28px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border-radius: 30px;
+  min-width: 180px;
+  height: 55px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  direction: rtl;
+}
+
+.button:hover {
+  background: #8a6559;
+  box-shadow: 0 8px 20px rgba(149, 112, 99, 0.3);
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+/* אפקט הברקה - קטן ועדין יותר */
+.shine {
+  position: absolute;
+  top: -25%;
+  left: -25%;
+  width: 150%;
+  height: 150%;
+  background: linear-gradient(
+    45deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 70%,
+    transparent 100%
+  );
+  transform: rotate(25deg);
+  animation: shine 10s infinite linear;
+  pointer-events: none;
+}
+
+@keyframes shine {
+  0% {
+    transform: translate(-75%, -75%) rotate(25deg);
+  }
+  100% {
+    transform: translate(75%, 75%) rotate(25deg);
+  }
+}
+
+/* אופציונלי - אפשר להוסיף את סגנונות תוכן הכפתור מה-CSS של סרגל הניווט */
+.buttonContent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.buttonText, .buttonTextHover {
+  display: block;
+  width: 100%;
+  text-align: center;
+  transition: all 0.4s ease;
+  white-space: nowrap;
+}
+
+.buttonTextHover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+.button:hover .buttonText {
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+.button:hover .buttonTextHover {
+  transform: translateY(0);
+  opacity: 1;
+}
