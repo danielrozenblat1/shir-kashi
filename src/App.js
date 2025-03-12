@@ -12,7 +12,7 @@ import BenefitsScreen from './screens/ThirdScreen';
 
 function App() {
   return <>
-  {/* <NavBarNew/> */}
+  <NavBarNew/>
   <FirstScreen/>
 <NumerologyScreen/>
 <BenefitsScreen/>
