@@ -79,7 +79,7 @@ const BenefitsScreen = () => {
                         <div className={styles.text}>
                             <div className={styles.stepHeader} itemProp="name">לשחרר דפוסים מגבילים</div>
                             <div className={styles.section} itemProp="description">
-                                לזהות קונפליקטים פנימיים ודפוסי חשיבה מעכבים דרך המפה הנומרולוגית שלך. 
+                                נוכל לזהות קונפליקטים פנימיים ודפוסי חשיבה מעכבים דרך המפה הנומרולוגית שלך. 
                                 המפה מגלה אתגרים מולדים שמשפיעים על התנהגותך ומאפשרת להבין ולשחרר אותם.
                             </div>
                         </div>

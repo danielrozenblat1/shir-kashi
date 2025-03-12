@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Me.module.css';
 import shir from "../../images/שיר קשי תדמית.png";
 import FormScreen from '../form/FormScreen';
+import Recommendations from '../recommends/Recommends';
 
 const AboutMe = () => {
   return (
@@ -22,7 +23,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-    
+    <Recommendations/>
     </>
   );
 };
