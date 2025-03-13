@@ -65,7 +65,7 @@ const Services = () => {
   return <>
     <div className={styles.servicesContainer}>
       <h2 className={styles.servicesTitle}>השירותים שלי</h2>
-      <p className={styles.servicesSubtitle}>לקוח יכול לבחור בין 6 סוגי מפות נומרולוגיות:</p>
+      <p className={styles.servicesSubtitle}>ריכזתי עבורכם את סוגי השירותים שאני נותנת, מוזמנים לגלול וברגע שמצאתם את הדבר שהכי מדוייק לכם - פשוט תלחצו על הכפתור שמחתיו :)</p>
       
       <div className={styles.servicesGrid}>
         {services.map((service) => (

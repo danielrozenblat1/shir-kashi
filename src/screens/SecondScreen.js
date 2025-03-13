@@ -48,7 +48,7 @@ const NumerologyScreen = () => {
             <div className={styles.concernsContainer}>
                 <div className={styles.concernItem}>
                     <Search className={styles.icon} />
-                    <span>לא יודע/ת מה מתאים לך לעסוק או מהו הייעוד שלך</span>
+                    <span>לא יודע/ת במה מתאים לך לעסוק או מהו הייעוד שלך</span>
                 </div>
                 
                 <div className={styles.concernItem}>
