@@ -3,6 +3,7 @@ import './App.css';
 import ByMe from './components/ByMe/ByMe';
 import NavBarNew from './components/CourseNav/NavBarNew';
 import AboutMe from './components/me/Me';
+import SocialLinks from './components/social/Social';
 import Services from './components/treatments/Services';
 import FifthScreen from './screens/FifthScreen';
 import FirstScreen from './screens/FirstScreen';
@@ -20,6 +21,7 @@ function App() {
   <Services/>
   <BackgroundGlass/>
   <FifthScreen/>
+  <SocialLinks/>
   <ByMe/>
   </>
 }

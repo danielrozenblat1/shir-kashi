@@ -75,7 +75,7 @@
 .introBox span {
     font-size: 1.6rem;
     font-family: 'Assistant', sans-serif;
-    background: linear-gradient(135deg, #AD8A6C 0%, #9C7A5A 100%);
+      background: linear-gradient(135deg, #360D0C 0%, #714a48 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
@@ -111,7 +111,7 @@
     gap: 0.6rem; /* Reduced from 1rem to make icon closer to text */
     font-family: 'AssistantR', sans-serif;
     font-size: 1.1rem;
-    color: #8C6E50;
+    color: #413121;
     padding: 0.8rem 1rem;
     border-radius: 12px;
     transition: all 0.3s ease;
@@ -148,7 +148,7 @@
 .icon {
     width: 28px;
     height: 28px;
-    color: #8C6E50;
+    color: #413121;
     transition: all 0.3s ease;
     margin-bottom: 0.2rem; /* Reduced from 0.5rem to bring icon closer to text */
     box-sizing: border-box;
@@ -185,7 +185,7 @@
 
 .goodNews {
     font-size: 1.8rem;
-    color: #8C6E50;
+    color: #413121;
     margin: 1.5rem auto 0.8rem;
     font-weight: 500;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
@@ -195,7 +195,7 @@
 
 .notAlone {
     font-size: 1.3rem;
-    background: linear-gradient(135deg, #AD8A6C 30%, #8C6E50 70%);
+      background: linear-gradient(135deg, #360D0C 0%, #714a48 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 1.5% auto;
@@ -210,7 +210,7 @@
     margin: 1.5% auto;
     font-weight: 400;
     letter-spacing: -0.02em;
-    background: linear-gradient(135deg, #AD8A6C 30%, #8C6E50 70%);
+        background: linear-gradient(135deg, #360D0C 0%, #714a48 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
@@ -224,7 +224,7 @@
     margin: 1.5% auto;
     font-weight: 400;
     letter-spacing: -0.02em;
-    background: linear-gradient(135deg, #AD8A6C 30%, #8C6E50 70%);
+        background: linear-gradient(135deg, #360D0C 0%, #714a48 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
@@ -241,7 +241,7 @@
     transform: translateX(-50%);
     width: 100px;
     height: 1.5px;
-    background: linear-gradient(90deg, transparent, #8C6E50 50%, transparent);
+    background: linear-gradient(90deg, transparent, #413121 50%, transparent);
 }
 
 .subtitleSmall::after {

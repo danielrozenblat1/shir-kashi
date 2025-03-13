@@ -16,12 +16,12 @@
   font-size: 2.2rem;
   font-weight: 700;
   font-family: 'Assistant', sans-serif;
-  color: #957063;
+  color: #583f36;
 }
 
 .servicesSubtitle {
   font-size: 1.1rem;
-  color: #957063;
+  color: #583f36;
   margin-bottom: 2rem;
   font-family: 'AssistantR', sans-serif;
 }
@@ -80,7 +80,7 @@
   font-size: 1.4rem;
   font-weight: 600;
   margin: 0 0 0.5rem 0;
-  color: #957063;
+  color: #583f36;
 }
 
 .serviceDetails {
@@ -110,7 +110,7 @@
   font-family: 'Assistant', sans-serif;
   font-weight: 600;
   font-size: 0.9rem;
-  color: #957063;
+  color: #583f36;
   margin: 0 0 0.25rem 0;
 }
 
@@ -118,7 +118,7 @@
   font-family: 'AssistantR', sans-serif;
   font-size: 0.9rem;
   line-height: 1.5;
-  color: #666;
+  color: #5f5f5f;
   margin: 0;
   width: 90%;
   margin-right: 0;
@@ -148,6 +148,16 @@
   margin: 0.5rem 0;
   line-height: 1.6;
   font-family: 'AssistantR', sans-serif;
+}
+
+/* New style for the info title */
+.infoTitle {
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: #583f36;
+  text-align: right;
 }
 
 /* Responsive styles */
@@ -202,6 +212,10 @@
   .additionalInfo {
     padding: 1rem;
   }
+  
+  .infoTitle {
+    font-size: 1.2rem;
+  }
 }
 
 /* 350px-450px */
@@ -241,6 +255,10 @@
     text-align: left;
     padding-left: 1rem;
     margin-top: 0.75rem;
+  }
+  
+  .infoTitle {
+    font-size: 1.3rem;
   }
 }
 

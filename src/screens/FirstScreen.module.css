@@ -5,7 +5,7 @@
 }
 .image {
     object-fit: contain;
-    border-radius: 50%;
+
     justify-content: center;
 }
 
@@ -45,7 +45,7 @@
 /* Under 350px - Small mobile */
 @media screen and (max-width: 349px) {
     .center {
-        width: 80%;
+        width: 75%;
     }
     .image {
         width: 100%;
@@ -70,7 +70,7 @@
 /* 350px - 450px - Mobile */
 @media screen and (min-width: 350px) and (max-width: 450px) {
     .center {
-        width: 70%;
+        width: 55%;
     }
     .image {
         width: 100%;
@@ -95,7 +95,7 @@
 /* 450px - 550px - Large mobile */
 @media screen and (min-width: 451px) and (max-width: 550px) {
     .center {
-        width: 80%;
+        width: 50%;
     }
     .image {
         width: 100%;
@@ -120,7 +120,7 @@
 /* 550px - 650px - Small tablet */
 @media screen and (min-width: 551px) and (max-width: 650px) {
     .center {
-        width: 80%;
+        width: 50%;
     }
     .image {
         width: 100%;
@@ -144,7 +144,7 @@
 /* 650px - 750px - Tablet */
 @media screen and (min-width: 651px) and (max-width: 750px) {
     .center {
-        width: 75%;
+        width: 45%;
     }
     .image {
         width: 100%;
@@ -168,7 +168,7 @@
 /* 750px - 850px - Large tablet */
 @media screen and (min-width: 751px) and (max-width: 850px) {
     .center {
-        width: 70%;
+        width: 40%;
     }
     .image {
         width: 100%;
@@ -192,7 +192,7 @@
 /* 850px - 950px - Small desktop */
 @media screen and (min-width: 851px) and (max-width: 950px) {
     .center {
-        width: 65%;
+        width: 35%;
     }
     .image {
         width: 100%;
@@ -216,7 +216,7 @@
 /* 950px - 1050px - Desktop */
 @media screen and (min-width: 951px) and (max-width: 1050px) {
     .center {
-        width: 60%;
+        width: 30%;
     }
     .image {
         width: 100%;
@@ -240,7 +240,7 @@
 /* 1050px - 1150px - Large desktop */
 @media screen and (min-width: 1051px) and (max-width: 1150px) {
     .center {
-        width: 50%;
+        width: 30%;
     }
     .image {
         width: 100%;
@@ -263,7 +263,7 @@
 /* 1150px - 1250px - Extra large desktop */
 @media screen and (min-width: 1151px) and (max-width: 1250px) {
     .center {
-        width: 40%;
+        width: 30%;
     }
     .image {
         width: 100%;
@@ -286,7 +286,7 @@
 /* 1250px and above - Very large screens */
 @media screen and (min-width: 1251px) {
     .center {
-        width: 30%;
+        width: 20%;
     }
     .image {
         width: 100%;

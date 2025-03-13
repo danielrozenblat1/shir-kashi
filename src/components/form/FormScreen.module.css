@@ -10,7 +10,7 @@
   font-family: "Assistant";
   text-align: center;
   margin: 2% auto;
-  color: #947569;
+  color: #413121;
   font-weight: 300;
   letter-spacing: 0.8px;
   direction: rtl;
@@ -31,21 +31,21 @@
   border: none;
   direction: rtl;
   border-radius: 6px;
-  background-color: rgba(209, 179, 169, 0.08);
+  background-color: rgba(209, 179, 169, 0.18); /* Darker background */
   font-size: 1rem;
-  color: #947569;
+  color: #413121;
   font-family: "AssistantR";
   outline: none;
   transition: all 0.25s ease;
 }
 
 .input::placeholder {
-  color: rgba(148, 117, 105, 0.6);
+  color: rgba(148, 117, 105, 0.8); /* Darker placeholder */
 }
 
 .input:focus {
-  background-color: rgba(209, 179, 169, 0.15);
-  box-shadow: 0 2px 8px -4px rgba(148, 117, 105, 0.25);
+  background-color: rgba(209, 179, 169, 0.28); /* Darker focus state */
+  box-shadow: 0 2px 8px -4px rgba(148, 117, 105, 0.3);
 }
 
 .button {
@@ -53,9 +53,9 @@
   margin: 20px 0 0;
   border: none;
   border-radius: 6px;
-  background-color: rgba(148, 117, 105, 0.15);
+  background-color: rgba(148, 117, 105, 0.3); /* Darker button background */
   font-size: 1rem;
-  color: #947569;
+  color: #413121;
   font-weight: 500;
   font-family: "Assistant";
   cursor: pointer;
@@ -64,9 +64,9 @@
 }
 
 .button:hover {
-  background-color: rgba(148, 117, 105, 0.25);
+  background-color: rgba(148, 117, 105, 0.4); /* Darker hover state */
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px -4px rgba(148, 117, 105, 0.3);
+  box-shadow: 0 4px 10px -4px rgba(148, 117, 105, 0.35);
 }
 
 .button:active {

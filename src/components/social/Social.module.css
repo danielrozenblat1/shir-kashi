@@ -1,0 +1,59 @@
+/* SocialLinks.module.css */
+.container {
+    width: 100%;
+    direction: rtl;
+    margin: 2rem 0;
+   
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 600;
+    color: #360D0C; /* Dark brown color from the image (#360D0C) */
+    font-size: 1.8rem;
+  }
+  
+  .socialContainer {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1rem;
+  }
+  
+  .socialIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+   
+    color: #360D0C; /* Dark brown from image */
+ 
+  }
+  
+  .socialIcon:hover {
+    transform: translateY(-5px);
+    background-color: #C28984; /* Dusty rose on hover */
+    color: #FFDEDD; /* Light pink for icon on hover */
+    box-shadow: 0 4px 8px rgba(54, 13, 12, 0.2);
+  }
+  
+  .iconSvg {
+    color: inherit;
+  }
+  
+  @media (max-width: 768px) {
+    .socialContainer {
+      gap: 2rem;
+    }
+    
+    .socialIcon {
+      width: 45px;
+      height: 45px;
+    }
+  }
