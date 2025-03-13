@@ -5,7 +5,7 @@
 }
 .image {
     object-fit: contain;
-
+margin-top:15px;
     justify-content: center;
 }
 
