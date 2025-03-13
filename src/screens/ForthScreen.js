@@ -13,19 +13,19 @@ import Button from '../components/button/Button';
 const BackgroundGlass = () => {
   const items = [
     {
-      text: "רוצים לדעת איפה כדאי לכם להתמקד יותר",
+      text: "לדעת איפה כדאי לכם להתמקד יותר",
       icon: <Compass className={styles.icon} />
     },
     {
-      text: "מה החוזקות והחולשות שלכם",
+      text: "לדעת מה החוזקות והחולשות שלכם",
       icon: <Gift className={styles.icon} />
     },
     {
-      text: "מה מעכב אתכם מלהתפתח אישית ולהצליח",
+      text: "להבין מה מעכב אתכם מלהתפתח אישית ולהצליח",
       icon: <TrendingUp className={styles.icon} />
     },
     {
-      text: "לדעת מה הייעוד שלכם מבחינת קריירה",
+      text: "לגלות מה הייעוד שלכם מבחינת קריירה",
       icon: <Search className={styles.icon} />
     },
     {
@@ -33,7 +33,7 @@ const BackgroundGlass = () => {
       icon: <Clock className={styles.icon} />
     },
     {
-      text: "מתי הזמן הכי טוב עבורכם לפעול ולעשות דברים שחשבתם עליהם תקופה",
+      text: "להבין מתי הזמן הכי טוב עבורכם לפעול ולעשות דברים שחשבתם עליהם כבר תקופה",
       icon: <Heart className={styles.icon} />
     }
   ];
@@ -43,7 +43,7 @@ const BackgroundGlass = () => {
       <div className={styles.backgroundImage} />
       
       <div className={styles.content}>
-        <h1 className={styles.title}>:אז אם אתם</h1>
+        <h1 className={styles.title}>:אז אם אתם רוצים</h1>
         
         <div className={styles.cardsGrid}>
           {items.map((item, index) => (
